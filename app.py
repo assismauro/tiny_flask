@@ -1,4 +1,6 @@
 from flask import Flask
+import sys
+sys.path.insert(0,'/opt/flask-app')
 
 app = Flask(__name__)
 
